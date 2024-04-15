@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>K K Wagh Institute Bus Services</title>
+  <style>
+    body {
+      background-color: #FFFF00;
+    }
+
+    h1 {
+      color: #000000;
+      background-color: #FFFF00;
+      padding: 20px;
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #3d3b3b;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 50%;
+      text-align: center;
+      background-color: rgb(231, 62, 90);
+      color: black;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    section p {
+      font-size: 18px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .bus-plans {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .bus-plan-card {
+      display: inline-block;
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #333;
+      border-radius: 10px;
+      width: 300px;
+      background-color: #f2f2f2;
+    }
+
+    .bus-plan-card h2 {
+      color: #161515;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .bus-plan-card p {
+        
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+  <script src="displayLocation.js"></script>
+
+    <p style="font-size: 22px;"><h1>K K Wagh Institute Bus Services</h1>.</p>
+
+
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#bus-route">Bus Route</a></li>
+    <li><a href="#bus-fees">Bus Fees</a></li>
+    <li><a href="#contact-us">Contact Us</a></li>
+    <li><a href="index.html" target="_blank" class="button">DRIVER LOGIN</a></li>
+    <li><a href="student-login.html" target="_blank" class="button">SEE Location</a></li>
+
+  </ul>
+<section>
+  <div id="home">
+    <h1>Home</h1>
+    <p style="font-size: 18px;"><h1>  Welcome to K K Wagh Institute Bus Services!</h1></p>
+    <br>
+    <hr>
+    <p><h2>COMFORTABLE RIDE WITH PROFESSIONAL DRIVERS</h2></p> 
+    <p><h1>YOUR SECURITY IS OUR PRIORITY</h1></p>
+    <p><h2>SIT BACK, RELAX, AND ENJOY THE RIDE</h2></p>
+    <br>
+    <hr>
+    <p><h2>At K K Wagh Institute Bus Service, our mission is to connect students and staff through safe, comfortable, and convenient bus transportation. We strive to provide excellent service that exceeds our students' and staff's expectations and contributes to their overall travel experience.</h2></p>
+  </div>
+</section>
+<section>
+    <div id="bus-route">
+        <h1> BUS ROUTES</h1>
+        <p style="font-size: 18px;"><h1> LET US SEE OUR BUS ROUTES</h1></p>
+        <table>
+            <tr>
+              <th colspan="4">Bus Route: Gangapur Road</th>
+            </tr>
+            <tr>
+              <th>Stop</th>
+              <th>Landmark</th>
+              <th>Bus Number</th>
+              <th>Frequency</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>XYZ BUS Stop</td>
+              <td>101</td>
+              <td>Every 15 minutes</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>ABC Bus Stop</td>
+              <td>202</td>
+              <td>Every 30 minutes</td>
+            </tr>
+            <!-- Add more rows for additional bus stops and information -->
+          </table>
+        <br>
+    </div>
+</section>
+<section>
+  <div id="bus-fees">
+    <h1>Bus Fees</h1>
+    <div class="bus-plans">
+      <div class="bus-plan-card">
+        <h2>Monthly Plan</h2>
+        <p>Price: Rs. 5000 per month</p>
+        <p>Features:</p>
+        <ul>
+          <li>Unlimited rides for one month</li>
+          <li>Flexible payment options</li>
+          <li>Access to all bus routes</li>
+        </ul>
+      </div>
+      <div class="bus-plan-card">
+        <h2>Yearly Plan</h2>
+        <p>Price: Rs. 18,500 per year</p>
+        <p>Features:</p>
+        <ul>
+          <li>Unlimited rides for one year</li>
+          <li>Discounted price</li>
+          <li>Access to all bus routes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
