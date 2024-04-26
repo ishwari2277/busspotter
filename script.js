@@ -23,7 +23,7 @@ document.getElementById('signin-form').addEventListener('submit', function(event
             <div id="map"></div>
 
             <script>
-            mapboxgl.accessToken = 'pk.eyJ1IjoiaXNod2FyaS0yMiIsImEiOiJjbGplZjBzdWkyd3BwM2pxeTk3NmFrajVuIn0.jcNyUjD4Vsza5C0nvkC7QQ';
+            mapboxgl.accessToken = 'YOUR API KEY';
 
 // Create the map
 var map = new mapboxgl.Map({
